@@ -23,5 +23,36 @@ A RESTful web application for managing book reviews built with Node.js, Express,
 ## Setup Instructions
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-repo/book-review-app.git
+git clone https://github.com/SethmiDanoshi/Book_review_Backend.git
 cd book-review-app
+```
+### configure database
+Create a .env file in the root directory with the following content:
+```bash
+MONGO_URI=mongodb://localhost:27017/book_reviews_db
+PORT=8080
+```
+
+### Install Dependencies
+```bash
+npm install
+```
+### Build the Application
+No build step is necessary for this application.
+
+### Run the Application
+```bash
+npm start
+```
+## API Endpoints
+Create a Book Review: POST /reviews
+Get All Book Reviews: GET /reviews
+Get Book Review by ID: GET /reviews/{id}
+Update Book Review: PUT /reviews/{id}
+Delete Book Review: DELETE /reviews/{id}
+
+
+
+
+
+
