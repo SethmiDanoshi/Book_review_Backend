@@ -45,14 +45,21 @@ No build step is necessary for this application.
 npm start
 ```
 ## API Endpoints
-Create a Book Review:
-```bash
- POST /reviews
-```
-Get All Book Reviews: GET /reviews
-Get Book Review by ID: GET /reviews/{id}
-Update Book Review: PUT /reviews/{id}
-Delete Book Review: DELETE /reviews/{id}
+- **Create a Book Review**: `POST /reviews`
+  - Adds a new book review.
+  
+- **Get All Book Reviews**: `GET /reviews`
+  - Retrieves all book reviews.
+  
+- **Get Book Review by ID**: `GET /reviews/{id}`
+  - Retrieves a single book review by its unique ID.
+  
+- **Update Book Review**: `PUT /reviews/{id}`
+  - Updates an existing book review by its unique ID.
+  
+- **Delete Book Review**: `DELETE /reviews/{id}`
+  - Deletes a book review by its unique ID.
+
 
 
 
